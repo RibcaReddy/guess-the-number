@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Number Guessing Game</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <div class="main">
+        <h1>Number Guessing Game</h1>
+        <h3>Rules:</h3>
+            <li><b>Select number from 1-100.</b></li>
+            <li><b>Click on the check button.</b></li>
+            <li><b>It will provide you with a hint to guess the number correctly.</b></li>
+            <li><b>Repeat the same step until you find the number.</b></li>
+        <input type="number" placeholder="Enter the number" id="n1">
+        <center><h3 id="res">Wait for the result!!!</h3></center>
+        <h3 id="tries">0</h3>
+        <div class="button">
+            <input type="submit" value="check" onclick="findNumber()">
+            <input type="submit" value="Reset" onclick="window.location.reload()">
+        </div>
+    </div>
+    <script src="./design.js"></script>
+</body>
+</html>

@@ -1,0 +1,60 @@
+body{
+    background: url("https://i.pinimg.com/originals/d0/cb/6a/d0cb6aeabb07ebf5420eb6b45998bc21.png");
+    background-repeat: no-repeat;
+    background-position: 50%;
+    background-size:cover;
+    height: 590px;
+}
+.main{
+    border: 3px solid rgba(121, 96, 96, 0);
+    width:520px;
+    height: 375px;
+    text-align: center;
+    margin-left: 480px;
+    background: rgba(255, 255, 255, 0.953);
+    margin-top: 12%;
+    box-shadow: 30px -20px 30px rgb(21, 21, 21);
+
+    
+}
+li{
+    text-align: justify;
+    padding-left: 20px;
+    color: rgb(19, 19, 19);
+    font-size: 18px;
+}
+#n1{
+    width: 150px;
+    padding-bottom: 3px;
+    margin-top: 10px;
+    border:2px solid rgba(143, 136, 136, 0.626);
+    background: rgba(255, 255, 255, 0.353);
+    color: black;
+    text-align: center;
+    box-shadow: -5px 10px 10px;
+}
+#button{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 25px;
+}
+input[type="submit"]{
+    height: 30px;
+    width: 70px;
+    margin-top: -100px;
+    background: rgba(255, 255, 255, 0.353);
+    color: rgb(10, 0, 0);
+    font-size: 15px;
+    font-weight: bold;
+    box-shadow: 3px 5px 3px;
+    cursor: pointer;
+}
+h3{
+    color: black;
+}
+#res{
+    width: 500px;
+    height: 25px;
+    color: rgb(72, 54, 89);   
+}
+
